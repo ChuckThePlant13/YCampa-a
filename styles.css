@@ -21,10 +21,6 @@ main {
     background-size: cover;
 }
 .bottom-decoration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     background-image: url('./assets/icons/Flechas.svg');
     min-width: 320px;
     height: 85px;
