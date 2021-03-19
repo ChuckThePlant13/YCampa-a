@@ -13,6 +13,12 @@ body {
 main {
     min-height: 420px;
 }
+footer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
 .top-decoration {
     background-image: url('./assets/icons/Flechas.svg');
     min-width: 320px;
@@ -30,6 +36,7 @@ main {
     display: flex;
     flex-direction: column;
     place-items: center;
+    height: 90vh;
 }
 .morena-logo {
     background-image: url('./assets/icons/logomorena_Blanco2.svg');
