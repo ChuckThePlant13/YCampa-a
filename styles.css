@@ -14,11 +14,6 @@ body {
 main {
     min-height: 420px;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .top-decoration {
     background-image: url('./assets/icons/Flechas.svg');
     min-width: 320px;
