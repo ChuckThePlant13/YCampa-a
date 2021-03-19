@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    min-width: 320px;
+    width: 100%;
+    height: 70px;
+    background-color: #BD1218;
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+}
+main {
+    display: flex;
+    place-content: center;
+}
+footer {
+    min-width: 320px;
+}
+header .notificacion-icon {
+    background-image: url('/assets/icons/notificacion1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+header .morena-logo {
+    background-image: url('/assets/icons/logomorena_Blanco2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 80px;
+    align-self: center;
+    margin-top: 15px;
+}
+header .menu-icon {
+    background-image: url('/assets/icons/Menudehamburguesa.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin-right: 15px;
+}
+.main-container {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 120px 30px 120px 120px;
+}
+.main-container .acercaDe {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    grid-column: 1 / 4;
+}
+.main-container .voto-icon {
+    background-image: url('./assets/icons/VotoYDemocracia.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.main-container .sonora-icon {
+    background-image: url('./assets/icons/Sonora.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.main-container .candidato-icon {
+    background-image: url('./assets/icons/Candidato.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.main-container .propuestas {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    grid-row: 3 / 4;
+    grid-column: 1 / 4;
+}
+.main-container .transporte-icon {
+    background-image: url('./assets/icons/Transportepúblico.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+}
+.main-container .oportunidad-icon {
+    background-image: url('./assets/icons/OportunidadLaboral.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+}
+.main-container .educacion-icon {
+    background-image: url('./assets/icons/Educación.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+}
+.main-container .seguridad-icon {
+    background-image: url('./assets/icons/SeguridadCiudadana.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+}
+.main-container .justicia-icon {
+    background-image: url('./assets/icons/Justicia.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+}
+.main-container .honestidad-icon {
+    background-image: url('./assets/icons/Honestidad.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    place-self: center;
+}
+.patron-inferior {
+    background-image: url('./assets/icons/patroninferios1.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65px;
+    position: relative;
+    top: 10px;
+}
+.home-bar {
+    background-color: #BD1218;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+.home-bar .foro-icon {
+    background-image: url('./assets/icons/Foro-icono.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.home-bar .home-icon {
+    background-image: url('./assets/icons/home1.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.home-bar .perfil-icon {
+    background-image: url('./assets/icons/Perfil-icono.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}

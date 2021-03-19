@@ -30,6 +30,7 @@ main {
     display: flex;
     flex-direction: column;
     place-items: center;
+    height: 90vh;
 }
 .morena-logo {
     background-image: url('./assets/icons/logomorena_Blanco2.svg');
