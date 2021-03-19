@@ -9,16 +9,32 @@ html {
 }
 body {
     background-color: #BD1218;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 main {
     width: 100%;
     height: auto;
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+}
+header {
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
 }
 footer {
     width: 100%;
     height: auto;
-    position: absolute;
-    bottom: 0;
+    align-self: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 .top-decoration {
     background-image: url('./assets/icons/Flechas.svg');
