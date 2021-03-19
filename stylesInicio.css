@@ -7,6 +7,12 @@
 html {
     font-size: 62.5%;
 }
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+}
 header {
     min-width: 320px;
     width: 100%;
@@ -15,16 +21,21 @@ header {
     display: flex;
     place-content: center;
     justify-content: space-around;
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
 }
 main {
     display: flex;
     place-content: center;
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
 }
 footer {
     width: 100%;
     height: auto;
-    position: absolute;
-    bottom: 0;
+    align-self: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 header .notificacion-icon {
     background-image: url('/assets/icons/notificacion1.svg');
@@ -204,3 +215,15 @@ header .menu-icon {
     width: 40px;
     height: 40px;
 }
+/*.home-bar-decoration {
+    background-image: url('./assets/icons/Group.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    height: 49px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: flex-start;
+}*/
