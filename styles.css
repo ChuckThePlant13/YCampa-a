@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #BD1218;
+    max-height: 550px;
+}
+main {
+    min-height: 420px;
+}
+.top-decoration {
+    background-image: url('./assets/icons/Flechas.svg');
+    min-width: 320px;
+    height: 85px;
+    background-size: cover;
+}
+.bottom-decoration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url('./assets/icons/Flechas.svg');
+    min-width: 320px;
+    height: 85px;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.morena-logo {
+    background-image: url('./assets/icons/logomorena_Blanco2.svg');
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 90px;
+    margin-bottom: 5px;
+}
+form input {
+    margin: 8px;
+    width: 260px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: -2px 3px 5px -1px rgba(0,0,0,0.71);
+}
+.forget {
+    position: relative;
+    left: 38px;
+    line-height: 1rem;
+    color: #F3D299;
+    font-size: 1.4rem;
+    font-family:'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button-login {
+    margin-top: 10px;
+    width: 225px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #EA5B13;
+    color: white;
+    font-size: 2.4rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family:'Montserrat', sans-serif;
+    box-shadow: -2px 3px 5px -1px rgba(0,0,0,0.71);
+}
+.button-singup {
+    margin-top: 15px;
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7C7C7C;
+    color: white;
+    font-size: 2.4rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family:'Montserrat', sans-serif;
+    box-shadow: -2px 3px 5px -1px rgba(0,0,0,0.71);
+}
